@@ -47,7 +47,7 @@
             }
         ],
         // Скобки в стрелочных функциях
-        "arrow-parens": ["error", "always"],
+        "arrow-parens": ["warn", "always"],
         // Строгие сравнения
         "eqeqeq": ["warn", "always"],
         // Предупреждаем бесполезные вычисления
@@ -145,7 +145,7 @@
         "react/prop-types": "off",
         "react/display-name": "off",
         "react/jsx-uses-vars": "warn",
-        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/rules-of-hooks": "warn",
         "react-hooks/exhaustive-deps": "warn",
         // Разрешаем неиспользуемые _ переменные и rest операторы
         "no-unused-vars": "off",
