@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import { ReactComponent as ReactLogo } from './logo.svg';
 import 'Styles/global.scss';
 import 'Styles/App.scss';
 
@@ -7,7 +7,8 @@ export const App = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <ReactLogo width={400} className="App-logo Logo" />
+                <ReactLogo width={200} className="Logo" fill="#61DAFB" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
